@@ -1,0 +1,27 @@
+.logo {
+    width: 220px;
+    height: 90px;
+    grid-column: 1 / 2;
+}
+
+
+
+.estiloletra {
+    color: $secundary;
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.estiloletra:hover {
+    color: $secundary;
+    text-decoration: solid overline;
+}
+
+@media (max-width: 351px) {
+    .logo {
+        width: 150px;
+        height: 80px;
+        grid-column: 1 / 2;
+    }
+}

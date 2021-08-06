@@ -1,0 +1,16 @@
+{
+  "name": "Sindicato de Mineros",
+  "version": "1.0.0",
+  "description": "El Sindicato de los mineros de las distintas plantas publicoprivadas de Criptomonedas de la república Argentina",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "popper.js": "^1.16.1"
+  }
+}

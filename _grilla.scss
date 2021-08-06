@@ -1,0 +1,298 @@
+.containerIndex {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "fotoprincipal fotoprincipal fotoprincipal"
+        "noticia noticia aside"
+        ". youtube ."
+        "footer footer footer";
+
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: 15% auto 15%;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    height: 100vh;
+}
+
+.containerQuienesSomos {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "aside2 quienes aside"
+        "footer footer footer";
+
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 15% auto 15%;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    height: 100vh;
+}
+
+.containerContacto {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "contacto contacto aside"
+        "footer footer footer";
+
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 15% auto 15%;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    height: 100vh;
+}
+
+.containerBeneficios {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "aside2 beneficios aside"
+        "footer footer footer";
+
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 15% auto 15%;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    height: 100vh;
+}
+
+.containerAutoridades {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "aside2 autoridades aside"
+        "footer footer footer";
+
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 15% auto 15%;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    height: 100vh;
+}
+
+.containerAcuerdos {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "aside2 acuerdos aside"
+        ". acuerdos ."
+        "footer footer footer";
+
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: 15% auto 15%;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    height: 100vh;
+}
+
+header {
+    grid-area: header;
+}
+
+footer {
+    grid-area: footer;
+}
+section#noticia {
+    grid-area: noticia;
+}
+
+section#youtube {
+    grid-area: youtube;
+}
+
+section#quienes {
+    grid-area: quienes;
+}
+
+section#contacto {
+    grid-area: contacto;
+}
+
+section#contacto2 {
+    grid-area: contacto2;
+}
+
+section#beneficios {
+    grid-area: beneficios;
+}
+
+div#fotoprincipal {
+    grid-area: fotoprincipal;
+}
+section#acuerdos {
+    grid-area: acuerdos;
+}
+
+section#autoridades {
+    grid-area: autoridades;
+}
+
+aside#aside1 {
+    grid-area: aside;
+}
+
+aside#aside2 {
+    grid-area: aside2;
+}
+
+aside#aside3 {
+    grid-area: aside3;
+}
+
+aside#aside4 {
+    grid-area: aside4;
+}
+
+@media (max-width: 991px) {
+    .containerIndex {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "fotoprincipal"
+            "noticia"
+            "youtube"
+            "aside3"
+            "footer";
+
+        grid-template-rows: 8rem auto auto auto 18rem;
+        grid-template-columns: auto;
+    }
+
+    .containerBeneficios {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "aside3"
+            "beneficios"
+            "aside4"
+            "footer";
+
+        grid-template-rows: 8rem auto auto auto 18rem;
+        grid-template-columns: auto;
+    }
+    .containerContacto {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "aside3"
+            "contacto"
+            "contacto2"
+            "aside4"
+            "footer";
+
+        grid-template-rows: 8rem auto auto auto auto 18rem;
+        grid-template-columns: auto;
+    }
+    .containerAutoridades {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "aside3"
+            "autoridades"
+            "aside4"
+            "footer";
+
+        grid-template-rows: 8rem auto auto auto 18rem;
+        grid-template-columns: auto;
+    }
+    .containerAcuerdos {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "aside3"
+            "acuerdos"
+            "aside4"
+            "footer";
+
+        grid-template-rows: 8rem auto auto auto 18rem;
+        grid-template-columns: auto;
+    }
+
+    .containerQuienesSomos {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "aside3"
+            "quienes"
+            "aside4"
+            "footer";
+
+        grid-template-rows: 8rem auto auto auto 18rem;
+        grid-template-columns: auto;
+    }
+
+    .titulo {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 58px;
+        line-height: 62px;
+        font-weight: 800;
+        margin-bottom: 30px;
+        letter-spacing: -1px;
+    }
+
+    .navbar-nav {
+        background-color: $primary;
+        height: auto;
+        width: 235px;
+    }
+
+    #aside1 {
+        display: none;
+    }
+
+    #aside2 {
+        display: none;
+    }
+
+    .estiloletra:hover {
+        color: $secundary;
+        text-decoration: solid underline;
+    }
+
+    .textoAcuerdo {
+        font-size: medium;
+        margin-top: 10px;
+        display: block;
+        align-items: flex-start;
+    }
+
+    .imagenAcuerdo {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 460px) {
+    .containerBeneficios {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "aside3"
+            "beneficioschico"
+            "aside4"
+            "footer";
+
+        grid-template-rows: 8rem auto auto auto 22rem;
+        grid-template-columns: auto;
+    }
+}

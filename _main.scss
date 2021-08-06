@@ -1,0 +1,140 @@
+.titulo {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 78px;
+    line-height: 62px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    letter-spacing: -1px;
+}
+.subtitulo {
+    text-align: center;
+    font-size: 28px;
+    line-height: 62px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    letter-spacing: -1px;
+}
+.fotoTrabajadorCripto {
+    height: auto;
+    width: 44%;
+    float: right;
+    margin-top: -290px;
+    margin-right: 39px;
+}
+
+.texto {
+    margin-top: 20px;
+    color: $secundary;
+    font-size: large;
+    text-align: left;
+    height: auto;
+    width: 100%;
+}
+
+.card {
+    border-style: none;
+    background: none;
+}
+
+.linkCanalYoutube {
+    background-color: $primary;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+
+.imagenesQuienesSomos {
+    display: flex;
+    margin-left: 10px;
+    height: 270px;
+    width: 420px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.maps {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.listaAutoridades {
+    font-size: medium;
+    list-style: none;
+    text-align: left;
+    li {
+        margin-top: 107px;
+    }
+}
+
+.fotosAutoridades {
+    font-size: medium;
+    list-style: none;
+    text-align: left;
+}
+
+.cara {
+    height: 100px;
+}
+
+.textoAcuerdo {
+    font-size: medium;
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.imagenAcuerdo {
+    height: 50%;
+    width: 50%;
+}
+
+.tamaño {
+    height: 50%;
+    width: 50%;
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1229px) {
+    .titulo {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 58px;
+        line-height: 62px;
+        font-weight: 800;
+        margin-bottom: 30px;
+        letter-spacing: -1px;
+    }
+}
+
+@media (max-width: 460px) {
+    #beneficios {
+        display: none;
+    }
+
+    .linkCanalYoutube {
+        text-align: left;
+        background-color: $primary;
+        padding: 5px;
+        text-decoration: underline;
+        font-size: 8px;
+    }
+
+    .titulo {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 58px;
+        line-height: 62px;
+        font-weight: 800;
+        margin-bottom: 40px;
+        letter-spacing: -1px;
+    }
+    
+}
+
+@media (min-width: 464px) and (max-width: 3760px) {
+    #beneficioschico {
+        display: none;
+    }
+}
