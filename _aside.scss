@@ -6,22 +6,13 @@
 
 
 @media (min-width: 992px) {
-
-    #aside3 {
-        display: none;
+    #aside3, #aside4 {
+      display: none;
     }
-
-    #aside4 {
-        display: none;
+  }
+  
+  @media (min-width: 992px) and (max-width: 1229px) {
+    #aside3, #aside4 {
+      display: none;
     }
-}
-
-@media (min-width: 992px) and (max-width: 1229px) { 
-    #aside3 {
-        display: none;
-    }
-
-    #aside4 {
-        display: none;
-    }
-}
+  }

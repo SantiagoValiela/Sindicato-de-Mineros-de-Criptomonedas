@@ -166,13 +166,6 @@ section#beneficios {
   grid-area: beneficios;
 }
 
-div#fotoprincipal {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-area: fotoprincipal;
-}
-
 section#acuerdos {
   -ms-grid-row: 2;
   -ms-grid-row-span: 2;
@@ -184,6 +177,13 @@ section#autoridades {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: autoridades;
+}
+
+div#fotoprincipal {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: fotoprincipal;
 }
 
 aside#aside1 {
@@ -276,9 +276,7 @@ aside#aside4 {
     width: 235px;
     text-decoration: none;
   }
-  #aside1 {
-    display: none;
-  }
+  #aside1,
   #aside2 {
     display: none;
   }
@@ -497,19 +495,13 @@ aside#aside4 {
 }
 
 @media (min-width: 992px) {
-  #aside3 {
-    display: none;
-  }
-  #aside4 {
+  #aside3, #aside4 {
     display: none;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1229px) {
-  #aside3 {
-    display: none;
-  }
-  #aside4 {
+  #aside3, #aside4 {
     display: none;
   }
 }
