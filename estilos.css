@@ -130,40 +130,53 @@ footer {
   grid-area: footer;
 }
 
-section#noticia {
+section #noticia {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: noticia;
 }
 
-section#youtube {
+section #youtube {
   -ms-grid-row: 4;
   -ms-grid-column: 2;
   grid-area: youtube;
 }
 
-section#quienes {
+section #quienes {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: quienes;
 }
 
-section#contacto {
+section #contacto {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: contacto;
 }
 
-section#contacto2 {
+section #contacto2 {
   grid-area: contacto2;
 }
 
-section#beneficios {
+section #beneficios {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: beneficios;
+}
+
+section #acuerdos {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  grid-area: acuerdos;
+}
+
+section #autoridades {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: autoridades;
 }
 
 div#fotoprincipal {
@@ -173,36 +186,23 @@ div#fotoprincipal {
   grid-area: fotoprincipal;
 }
 
-section#acuerdos {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 2;
-  grid-area: acuerdos;
-}
-
-section#autoridades {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  grid-area: autoridades;
-}
-
-aside#aside1 {
+aside #aside1 {
   -ms-grid-row: 2;
   -ms-grid-column: 3;
   grid-area: aside;
 }
 
-aside#aside2 {
+aside #aside2 {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: aside2;
 }
 
-aside#aside3 {
+aside #aside3 {
   grid-area: aside3;
 }
 
-aside#aside4 {
+aside #aside4 {
   grid-area: aside4;
 }
 
@@ -274,17 +274,13 @@ aside#aside4 {
     background-color: lightblue;
     height: auto;
     width: 235px;
+    text-decoration: none;
   }
   #aside1 {
     display: none;
   }
   #aside2 {
     display: none;
-  }
-  .estiloletra:hover {
-    color: black;
-    -webkit-text-decoration: solid underline;
-            text-decoration: solid underline;
   }
   .textoAcuerdo {
     font-size: medium;
@@ -330,7 +326,7 @@ aside#aside4 {
 .estiloletra:hover {
   color: black;
   -webkit-text-decoration: solid overline;
-          text-decoration: solid overline;
+  text-decoration: solid overline;
 }
 
 @media (max-width: 351px) {
@@ -340,6 +336,13 @@ aside#aside4 {
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1 / 2;
+  }
+}
+
+@media (max-width: 991px) {
+  .estiloletra:hover {
+    color: black;
+    text-decoration: underline;
   }
 }
 

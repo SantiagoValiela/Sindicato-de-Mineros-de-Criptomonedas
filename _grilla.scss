@@ -110,55 +110,58 @@ header {
 footer {
     grid-area: footer;
 }
-section#noticia {
-    grid-area: noticia;
-}
+section {
+    #noticia {
+        grid-area: noticia;
+    }
 
-section#youtube {
-    grid-area: youtube;
-}
+    #youtube {
+        grid-area: youtube;
+    }
 
-section#quienes {
-    grid-area: quienes;
-}
+    #quienes {
+        grid-area: quienes;
+    }
 
-section#contacto {
-    grid-area: contacto;
-}
+    #contacto {
+        grid-area: contacto;
+    }
 
-section#contacto2 {
-    grid-area: contacto2;
-}
+    #contacto2 {
+        grid-area: contacto2;
+    }
 
-section#beneficios {
-    grid-area: beneficios;
-}
+    #beneficios {
+        grid-area: beneficios;
+    }
+    #acuerdos {
+        grid-area: acuerdos;
+    }
 
+    #autoridades {
+        grid-area: autoridades;
+    }
+}
 div#fotoprincipal {
     grid-area: fotoprincipal;
 }
-section#acuerdos {
-    grid-area: acuerdos;
-}
 
-section#autoridades {
-    grid-area: autoridades;
-}
+aside {
+    #aside1 {
+        grid-area: aside;
+    }
 
-aside#aside1 {
-    grid-area: aside;
-}
+    #aside2 {
+        grid-area: aside2;
+    }
 
-aside#aside2 {
-    grid-area: aside2;
-}
+    #aside3 {
+        grid-area: aside3;
+    }
 
-aside#aside3 {
-    grid-area: aside3;
-}
-
-aside#aside4 {
-    grid-area: aside4;
+    #aside4 {
+        grid-area: aside4;
+    }
 }
 
 @media (max-width: 991px) {
@@ -253,6 +256,7 @@ aside#aside4 {
         background-color: $primary;
         height: auto;
         width: 235px;
+        text-decoration: none;
     }
 
     #aside1 {
@@ -261,11 +265,6 @@ aside#aside4 {
 
     #aside2 {
         display: none;
-    }
-
-    .estiloletra:hover {
-        color: $secundary;
-        text-decoration: solid underline;
     }
 
     .textoAcuerdo {
@@ -280,7 +279,6 @@ aside#aside4 {
         width: 100%;
     }
 }
-
 
 @media (max-width: 460px) {
     .containerBeneficios {
