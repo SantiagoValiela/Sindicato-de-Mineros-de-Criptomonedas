@@ -424,17 +424,15 @@ aside#aside4 {
 .textoAcuerdo {
   font-size: medium;
   margin-top: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
 }
 
 .imagenAcuerdo {
-  height: 50%;
-  width: 50%;
+  display: block;
+  margin: auto;
 }
 
 .tamaño {
@@ -488,13 +486,7 @@ aside#aside4 {
   margin: auto;
 }
 
-@media (min-width: 992px) {
-  #aside3, #aside4 {
-    display: none;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1229px) {
+@media (min-width: 1440px) {
   #aside3, #aside4 {
     display: none;
   }

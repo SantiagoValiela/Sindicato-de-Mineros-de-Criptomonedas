@@ -76,22 +76,19 @@
 .textoAcuerdo {
     font-size: medium;
     margin-top: 10px;
-    display: flex;
+    display: block;
     align-items: flex-start;
 }
 
 .imagenAcuerdo {
-    height: 50%;
-    width: 50%;
+display: block;
+margin: auto;
 }
 
 .tamaño {
     height: 50%;
     width: 50%;
 }
-
-
-
 
 
 
