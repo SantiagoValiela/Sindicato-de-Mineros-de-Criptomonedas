@@ -166,6 +166,15 @@ aside {
 }
 
 @media (max-width: 991px) {
+.navbar-nav {
+    background-color: $primary;
+    height: auto;
+    width: 235px;
+    text-decoration: none;
+}
+}
+
+@media (max-width: 1024px) {
    
     .containerIndex {
         display: grid;
@@ -254,12 +263,6 @@ aside {
         letter-spacing: -1px;
     }
 
-    .navbar-nav {
-        background-color: $primary;
-        height: auto;
-        width: 235px;
-        text-decoration: none;
-    }
 
     #aside1,
     #aside2 {
