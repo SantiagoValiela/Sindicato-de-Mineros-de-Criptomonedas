@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--descripción de la pagina-->
     <meta name="description" content="Pagina web del Sindicato de mineros de Criptomonedas de la Republica Argentina">
-    <meta name="keywords"  content="SINDICATO, TRABAJADORES, CRIPTOMONEDA, CGT, TRABAJO, MINERIA, MINEROS, CRIPTO">
+    <!--palabras claves-->
+    <meta name="keywords" content="SINDICATO, TRABAJADORES, CRIPTOMONEDA, CGT, TRABAJO, MINERIA, MINEROS, CRIPTO">
     <title>SIMICRI</title>
     <link rel="stylesheet" href="estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--bootstrap, popper, fuente de googlefont y animate-->
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./node_modules/popper.js/dist/umd/popper.min.js">
     <link href="https://fonts.googleapis.com/css2?family=Saira&display=swap" rel="stylesheet">
@@ -20,7 +23,9 @@
 
 <body class="fuente">
     <div class="containerBeneficios">
+        <!--HEADER-->
         <header>
+            <!--Barra de navegación Bootstrap-->
             <nav class="navbar navbar-expand-lg navbar-light bg-none">
                 <div class="container-fluid">
                     <a class="navbar-brand logo wow animate__animated animate__bounceIn animate__delay-0.5"
@@ -52,12 +57,14 @@
                 </div>
             </nav>
         </header>
-        <!-- TABLA A PARTIR DE 464PX - LA OTRA TABLA ES PARA MENOR TAMAÑO - VER MEDIAQUERY -->
+        <!--MAIN-->
+        <!-- TABLA DE BENEFICIOS RESPONSIVE A PARTIR DE 464PX - LA OTRA TABLA ES PARA MENOR TAMAÑO - VER MEDIAQUERY -->
         <section id="beneficios" class="borde">
             <h2 class="titulo"> Beneficios y subsidios</h2>
             <hr>
-            <p style="margin-bottom: 20px;">Tenemos el agrado de informarles los beneficios y subsidios disponibles como afiliado:</p>
-            
+            <p style="margin-bottom: 20px;">Tenemos el agrado de informarles los beneficios y subsidios disponibles como
+                afiliado:</p>
+
             <table class="table table-responsive table-striped table-dark">
                 <thead>
                     <tr>
@@ -93,15 +100,16 @@
                     </tr>
                 </tbody>
             </table>
-
-            <p style="margin-top: 10px;">Para más información comunicarse al teléfono o mails indicados en el pie de pagina</p>
+            <p style="margin-top: 10px;">Para más información comunicarse al teléfono o mails indicados en el pie de
+                pagina</p>
         </section>
-        <!-- TABLA DE ABAJO SOLO HASTA MAX 464PX  - VER MEDIAQUERY EN CSS -->
+        <!--TABLA DE BENEFICIOS RESPONSIVE HASTA MAX 464PX - VER MEDIAQUERY-->
         <section id="beneficioschico" class="borde">
             <h2 class="titulo"> Beneficios y subsidios</h2>
             <hr style="margin-bottom: 20px;">
-            <p style="margin-bottom: 20px;">Tenemos el agrado de informarles los beneficios y subsidios disponibles como afiliado:</p>
-            
+            <p style="margin-bottom: 20px;">Tenemos el agrado de informarles los beneficios y subsidios disponibles como
+                afiliado:</p>
+
             <table class="table table-responsive table-striped table-dark">
                 <thead>
                     <tr>
@@ -131,24 +139,32 @@
                     </tr>
                 </tbody>
             </table>
-            <p style="margin-top: 10px;">Para más información comunicarse al teléfono o mails indicados en el pie de pagina</p>
+            <p style="margin-top: 10px;">Para más información comunicarse al teléfono o mails indicados en el pie de
+                pagina</p>
         </section>
-
+        <!--ASIDE-->
+        <!--Aside 1 se visualiza solo en pc de escritorio y Laptop L (uso de @media)-->
         <aside id=aside1>
             <img src="imgs/asideduki.png" class="img-fluid" alt="asideDuki">
         </aside>
+        <!--Aside 2 se visualiza solo en pc de escritorio y Laptop L (uso de @media)-->
         <aside id="aside2">
             <img src="imgs/asidemilei.png" class="img-fluid" alt="asidemilei">
         </aside>
+        <!--Aside 3 se visualiza desde el celular small a Laptop (uso de @media)-->
         <aside id="aside3">
             <img src="imgs/asidedukihorizontal.png" class="img-fluid asidehorizontal" alt="Responsive image">
         </aside>
+        <!--Aside 4 se visualiza desde el celular small a Laptop (uso de @media)-->
         <aside id="aside4">
             <img src="imgs/asidemileihorizontal.png" class="img-fluid asidehorizontal" alt="Responsive image">
         </aside>
+        <!--FOOTER-->
         <footer>
+            <!--Logo Obra Social-->
             <div><img src="imgs/osminlogo2.png" class="logo2 img-fluid" alt="Logo2" title="logo2"></div>
             <div>
+                <!--Información importante-->
                 <ul class="infofooter">
                     <li>AV RIVADAVIA Y LARREA - BALVANERA</li>
                     <li>1155554444</li>
@@ -156,9 +172,9 @@
                     <li>INFO@OSMIN.COM.AR</li>
                 </ul>
             </div>
-
         </footer>
     </div>
+    <!--SCRIPTS DE BOOTSTRAP Y POPPER-->
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
 </body>
